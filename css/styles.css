@@ -312,7 +312,7 @@ video {
 
 .cls-m4ovor {
   font-family: Poppins;
-  color: rgb(15 23 42 / 1);
+  color: #0b1220;
   font-weight: 700;
 }
 
@@ -405,12 +405,14 @@ video {
 .hero-section {
   position: relative;
   overflow: hidden;
+  background: linear-gradient(to bottom, #0b1220 0%, #020617 55%, #020617 100%);
 }
 
 .hero-gradient {
   position: absolute;
   inset: 0px;
-  background-image: linear-gradient(to bottom, rgb(6 182 212 / 0.1), rgb(14 165 233 / 0.05), rgb(14 165 233 / 0));
+  background-image: radial-gradient(circle at top left, rgba(14, 165, 233, 0.32), transparent 55%),
+    radial-gradient(circle at top right, rgba(37, 99, 235, 0.3), transparent 60%);
   pointer-events: none;
 }
 
@@ -531,6 +533,7 @@ video {
 .stacks-section {
   border-top-width: 1px;
   border-color: rgb(30 41 59 / 0.8);
+  background-color: #020617;
 }
 
 .stacks-container {
