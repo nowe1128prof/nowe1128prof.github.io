@@ -254,6 +254,23 @@ video {
   font-family: Inter;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #0b1220;
+  color: #e2e8f0;
+}
+
+.gjs-t-h1,
+.gjs-t-h2,
+.gjs-t-h3,
+.gjs-t-h4,
+.gjs-t-h5,
+.gjs-t-h6 {
+  color: #f8fafc;
+}
+
+.gjs-t-button {
+  border-radius: 0.75rem;
+  background-color: #0ea5e9;
+  color: #0b1220;
 }
 
 .header {
